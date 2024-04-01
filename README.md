@@ -1,4 +1,4 @@
-###PennyFlo Assignment
+### PennyFlo Assignment
 
 In this project, I have build a **Chat App** app by applying the concepts that i have learned till now.
 
