@@ -1,0 +1,95 @@
+.app-container {
+  background-color: #add8e6;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  height: 50vh;
+  width: 50vw;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-hub-heading {
+  font-family: 'Roboto';
+  text-align: center;
+  color: #1e293b;
+  margin-bottom: 25px;
+}
+
+.name-container {
+  background-color: white;
+  height: 60%;
+  width: 30%;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.username-label {
+  font-size: 13px;
+  text-align: start;
+  font-weight: bold;
+  color: #1e293b;
+}
+
+.username-input {
+  height: 40px;
+  width: 100%;
+  background-color: #e2e8f0;
+  border-radius: 5px;
+  border: 0px;
+  padding-left: 15px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-top: 10px;
+  margin-bottom: 23px;
+}
+
+.enter-button {
+  height: 40px;
+  width: 100%;
+  background-color: #0967d2;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  font-family: 'Roboto';
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: #ff0b37;
+  font-size: 15px;
+  font-family: Georgia, serif;
+}
+
+.sign-in-container {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sign-in-button {
+  background-color: #0967d2;
+  height: 100%;
+  width: 30%;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 13px;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
